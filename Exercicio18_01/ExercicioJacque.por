@@ -3,11 +3,11 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero,contador,i //declarei minhas variaveis
+		inteiro numero,contador //declarei minhas variaveis
 
 		contador = 0 //coloquei meu contador em zero para iniciar a contagem dos 15 numeros
 
-		para (i=0; i<5; i++) { //o para vai iniciar em 0 e vai repetir até o i=15 (vai se repetir 15x)
+		para (inteiro i=0; i<5; i++) { //o para vai iniciar em 0 e vai repetir até o i=15 (vai se repetir 15x)
 			escreva("Digite um número inteiro: ")
 			leia(numero)
 	
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 0; 
+ * @POSICAO-CURSOR = 582; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
